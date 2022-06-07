@@ -7,6 +7,6 @@ def new_in_list(my_list, idx, element):
     elif idx >= a:
         return my_list
     else:
-        my_list2=my_list.copy()
+        my_list2 = my_list.copy()
         my_list2[idx] = element
         return my_list2
